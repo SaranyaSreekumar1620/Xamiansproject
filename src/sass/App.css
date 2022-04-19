@@ -1,0 +1,206 @@
+.backimg {
+  background-image: url(../Images/project.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 455px;
+  /* height: 500px; */
+  left: 492.5px;
+  top: 153.54px;
+  background: #08005d;
+  box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+h1 {
+  background: linear-gradient(89.68deg, #ffb92f 0.23%, #ff7890 98.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Adam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.form-items {
+  display: grid;
+  justify-content: center;
+}
+.btn {
+  left: 562px;
+  right: 562px;
+  top: 648.75px;
+  bottom: 195.25px;
+  background: linear-gradient(89.68deg, #ffb92f 0.23%, #ff7890 98.03%);
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.side-bar {
+  position: fixed;
+  width: 234px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background: #08005d;
+}
+.dash {
+  position: absolute;
+  width: 101px;
+  height: 29px;
+  left: 289px;
+  top: 46.14px;
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.dashboard {
+  background: #e5e5e5;
+}
+.box1 {
+  position: absolute;
+  width: 258.79px;
+  height: 100px;
+  left: 289.32px;
+  top: 135.02px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(17, 16, 16, 0.04);
+  border-radius: 20px;
+}
+.level-head {
+  position: absolute;
+  width: 149px;
+  height: 29px;
+  left: 289px;
+  top: 46.14px;
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1b2559;
+}
+.level-items {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 13px;
+}
+.title-lvl {
+  position: absolute;
+  width: 73.65px;
+  height: 22.21px;
+  left: 312.22px;
+  top: 160.45px;
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #98a1bd;
+}
+.btn-lvl {
+  left: 700px;
+  top: 151.56px;
+  position: absolute;
+  background: linear-gradient(89.68deg, #ffb92f 0.23%, #ff7890 98.03%);
+  border-radius: 8px;
+}
+.btn-tab {
+  border: 1px solid #07d835;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.toggle-btn {
+  width: 65px;
+  height: 23px;
+  background: #07d835;
+  border-radius: 50px;
+  padding: 3px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s 0.1s ease-in-out;
+  -moz-transition: all 0.3s 0.1s ease-in-out;
+  -o-transition: all 0.3s 0.1s ease-in-out;
+  transition: all 0.3s 0.1s ease-in-out;
+}
+.toggle-btn > .inner-circle {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s 0.1s ease-in-out;
+  -moz-transition: all 0.3s 0.1s ease-in-out;
+  -o-transition: all 0.3s 0.1s ease-in-out;
+  transition: all 0.3s 0.1s ease-in-out;
+}
+
+.toggle-btn.active {
+  background: blue !important;
+}
+
+.toggle-btn.active > .inner-circle {
+  margin-left: 19px;
+}
+.popup {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-inner {
+  position: absolute;
+  padding: 32px;
+  width: 100%;
+  max-width: 764px;
+  background-color: rgb(216, 211, 211);
+}
+.popup-inner .closebtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.container-box {
+  position: absolute;
+  width: 1329px;
+  height: auto;
+  left: 37px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 4%);
+  border-radius: 13px;
+}
+.container-box-ss {
+  position: absolute;
+  width: 67%;
+  height: auto;
+  left: 82px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 4%);
+  border-radius: 13px;
+}
+.btn-quote {
+  width: 109px;
+}
+.container-blogs {
+  position: absolute;
+  width: 1329px;
+  height: auto;
+  left: 37px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 4%);
+  border-radius: 13px;
+}
+.button-set {
+  float: right;
+}
